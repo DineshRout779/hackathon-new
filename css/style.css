@@ -68,7 +68,7 @@ a {
   padding-bottom: 14rem;
 }
 
-#detail,
+#theme,
 #program,
 #sponsors,
 #speakers {
@@ -81,7 +81,7 @@ footer {
   padding-bottom: 5rem;
 }
 
-#detail,
+#theme,
 #sponsors,
 #speakers,
 #team,
@@ -90,7 +90,7 @@ footer {
 }
 
 #overview h3,
-#detail h3,
+#theme h3,
 #venue h3 {
   padding-bottom: 12px;
 }
@@ -439,17 +439,17 @@ footer {
   padding-bottom: 10px;
 }
 
-#detail {
+#theme {
   background: #222;
   color: #ffffff;
 }
 
-#detail .fa {
+#theme .fa {
   color: #f2545f;
   font-size: 48px;
 }
 
-#detail p {
+#theme p {
   font-size: 20px;
 }
 
@@ -626,7 +626,7 @@ footer {
   }
 
   #overview img,
-  #detail .col-md-4 form {
+  #theme .col-md-4 form {
     padding-top: 32px;
   }
 
