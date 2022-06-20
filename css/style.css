@@ -678,6 +678,18 @@ li {
   justify-content: center;
   align-items: center;
 }
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3em;
+}
+
+@media screen and (max-width: 768px) {
+  .flex {
+    display: block;
+  }
+}
 
 .sessions {
   margin-top: 2rem;
