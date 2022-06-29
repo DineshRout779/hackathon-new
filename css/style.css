@@ -302,6 +302,7 @@ footer {
 #overview img {
   position: relative;
   padding-bottom: 32px;
+  padding-top: 25px; /* to mantain the horizontal alignment */
 }
 
 #program {
@@ -665,7 +666,7 @@ li {
 
 #timeline {
   background-color: #333;
-  padding: 5em 0;
+  padding: 6.5em 0; /* initially 5em */
 }
 
 #timeline h2 {
@@ -681,7 +682,7 @@ li {
 .flex {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */ /* no need of this bcuz now both timeline divs are not symmetrical  */
   gap: 3em;
 }
 
