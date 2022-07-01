@@ -81,6 +81,13 @@ $(document).ready(function() {
     });
   });
 
+  /* faq custom behaviour */
+  $(document).ready(function(){
+    $(".collapsed").click(function($e){
+        $e.preventDefault();
+        doSomething();
+    });
+  });
 
   /* Back top
   -----------------------------------------------*/
