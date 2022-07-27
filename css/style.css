@@ -71,6 +71,7 @@ a {
 #theme,
 #program,
 #sponsors,
+#hiringPatners,
 #speakers {
   padding-top: 10rem;
   padding-bottom: 10rem;
@@ -83,6 +84,7 @@ footer {
 
 #theme,
 #sponsors,
+#hiringPatners,
 #speakers,
 #team,
 footer {
@@ -412,16 +414,29 @@ footer {
   padding-top: 150px;
   padding-bottom: 150px;
 }
+#hiringPatners {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
 
 #sponsors img {
+  margin-top: 30px;
+}
+#hiringPatners img {
   margin-top: 30px;
 }
 
 #sponsors h2 {
   color: #f2545f;
 }
+#hiringPatners h2 {
+  color: #f2545f;
+}
 
 #sponsors p {
+  color: #222222;
+}
+#hiringPatners p {
   color: #222222;
 }
 
@@ -644,6 +659,8 @@ footer {
   }
 
   #sponsors img {
+  }
+  #hiringPatners img {
   }
 }
 
