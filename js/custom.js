@@ -42,6 +42,7 @@ $(document).ready(function() {
     $('#venue').parallax("100%", 0.1);
     $('#sponsors').parallax("100%", 0.3);
     $('#hiringPatners').parallax("100%", 0.3);
+    $('#mediaPatners').parallax("100%", 0.3);
     $('#contact').parallax("100%", 0.2);
 
   }
